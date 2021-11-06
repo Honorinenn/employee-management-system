@@ -5,7 +5,7 @@ USE employee_tracker;
 
 CREATE TABLE department (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(40) UNIQUE NOT NULL
+    name VARCHAR(30) UNIQUE NOT NULL
 )
 
 CREATE TABLE role (
@@ -19,8 +19,8 @@ CREATE TABLE role (
 
 CREATE TABLE employee (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(40) NOT NULL,
-    last_name VARCHAR(40) NOT NULL,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
     role_id INT UNSIGNED NOT NULL,
     INDEX role_ind (role_id),
     CONSTRAINT fk_role FOREIGN KEY (role_id) REFERNCES role(id) ON DELETE CASCADE,
