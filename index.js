@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const figlet = require('figlet');
 
 //This code calls various files in my lib folder that contain objects I reference
-const connection = require("./lib/SQL_login");
+const connection = require("./lib/SQL_login.js");
 const commandMenuChoices = require('./lib/commandMenu');
 const questions = require('./lib/questions');
 
