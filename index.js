@@ -17,7 +17,7 @@ const inquirerTypes = [
 ]
 
 //This line of code runs a synchronous function through the figlet npm that displays the designated text string in the console
-console.log(figlet.textSync('Employee Management', {
+console.log(figlet.textSync('Employee Tracker', {
     font: 'Standard',
     horizontalLayout: 'default',
     verticalLayout: 'default'

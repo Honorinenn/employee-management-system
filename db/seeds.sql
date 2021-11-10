@@ -41,4 +41,4 @@ VALUES
 ('Sandra', 'Bleck', 8, 6),
 ('Anais', 'Shan', 9, NULL),
 ('Sandy', 'Bleck', 10, 9);
---SELECT * FROM employee;
+-- SELECT * FROM employee;
