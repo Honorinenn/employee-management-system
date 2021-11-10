@@ -32,7 +32,7 @@ INSERT INTO employee
 (first_name, last_name, role_id, manager_id)
 VALUES
 ('Jude', 'Bond', 1, NULL),
-('Honorine', 'Ndom Ndzah', 2, 1),
+('Nadege', 'Kami', 2, 1),
 ('Edi', 'Tag', 3, NULL),
 ('Corine', 'Blue', 4, 3),
 ('Jami', 'Ford', 5, 3),

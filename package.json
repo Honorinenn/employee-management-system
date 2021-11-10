@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "as-table": "^1.0.55",
     "figlet": "^1.5.2",
     "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
     "node": "^16.11.1"
   },
   "devDependencies": {},
