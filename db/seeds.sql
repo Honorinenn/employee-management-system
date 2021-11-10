@@ -31,4 +31,14 @@ VALUES
 INSERT INTO employee
 (first_name, last_name, role_id, manager_id)
 VALUES
-('Honorine', 'Ndom Ndzah', 01, 04)
+('Jude', 'Bond', 1, NULL),
+('Honorine', 'Ndom Ndzah', 2, 1),
+('Edi', 'Tag', 3, NULL),
+('Corine', 'Blue', 4, 3),
+('Jami', 'Ford', 5, 3),
+('Sami', 'Pin', 6, NULL),
+('Carol', 'Egbaw', 7, 6),
+('Sandra', 'Bleck', 8, 6),
+('Anais', 'Shan', 9, NULL),
+('Sandy', 'Bleck', 10, 9);
+--SELECT * FROM employee;
