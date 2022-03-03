@@ -26,7 +26,7 @@ view all departments, view all roles, view all employees, add a department, add 
 
 
 ## License
-No License
+MIT License
 
 ## Contributing
 
