@@ -4,6 +4,8 @@ This project is a command line application to manage a company's employee databa
 
 https://youtu.be/eAC71kK_JzI
 
+![License badge](https://img.shields.io/badge/license-MIT-builtinModules.svg)
+
 
 
 
