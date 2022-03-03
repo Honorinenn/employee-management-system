@@ -5,7 +5,7 @@ This project is a command line application to manage a company's employee databa
 https://youtu.be/eAC71kK_JzI
 
 
-When the user starts the application using, node index.js on the command line, he is presented with the following options: 
+
 
 ## Table of Contents:
 1. [Installation](#installation)
@@ -19,6 +19,8 @@ When the user starts the application using, node index.js on the command line, h
 
 
 ## Usage
+When the user starts the application using, node index.js on the command line, he is presented with the following options: 
+view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 
 
 ## License
